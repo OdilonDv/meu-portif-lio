@@ -1,6 +1,8 @@
 
 body{background-image: url(universo.jpg);
-
+    font-size: 16px;
+    margin: 0;
+padding: 0;
 }
 
 .section{
@@ -109,3 +111,21 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 .imagem li:hover{
     transform: scale(1.2);
 }
+
+@media (max-whidth: 768px){
+    body {
+        font-size: 14px;
+    }
+    .container{
+        padding: 10px;
+    }
+}
+@media (max-whidth: 480px){
+    body {
+        font-size: 12px;
+    }
+    .container{
+        padding: 5px;
+    }
+}
+
